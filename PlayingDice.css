@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(219, 215, 215);
+}
+h1,footer{
+  text-align:center;
+  color: aliceblue;
+}
+#SizeDiv{
+  display: flex;
+  justify-content: center;
+}
+#userValue{
+  align-items: center;
+}
+#diceContainer {
+  border: 1px solid black; 
+  width: 100%; 
+  height: 400px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+#addBtn{
+  align-items: center;
+  border-radius:20px;
+  
+}
+#removeBtn{
+  align-items: center;
+  border-radius:20px;
+}
